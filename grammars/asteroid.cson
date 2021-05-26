@@ -171,6 +171,10 @@
     'name': 'keyword.control.asteroid'
   }
   {
+    'match': '\\b(system)\\b'
+    'name': 'keyword.control.asteroid'
+  }
+  {
     'match': '\\b(throw)\\b'
     'name': 'keyword.control.asteroid'
   }
