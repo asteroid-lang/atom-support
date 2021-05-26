@@ -1,9 +1,9 @@
 {
   "name": "language-asteroid",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Asteroid language support in Atom",
   "author": "Lutz Hamel <lutzhamel@uri.edu>",
-  "license": "ISC",
+  "license": "BSD",
   "homepage": "https://atom.io/packages/language-asteroid",
   "repository": {
     "type": "git",
