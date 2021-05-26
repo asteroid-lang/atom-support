@@ -1,23 +1,14 @@
 {
   "name": "language-asteroid",
   "version": "0.0.0",
-  "description": "Asteroid language support in Atom",
-  "author": "Lutz Hamel <lutzhamel@uri.edu>",
-  "license": "BSD",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/lutzhamel/language-asteroid"
-  },
+  "description": "A short description of your language package",
   "keywords": [
-    "Atom",
-    "package",
     "language",
-    "asteroid",
-    "syntax",
-    "highlight"
+    "grammar"
   ],
+  "repository": "https://github.com/atom/language-asteroid",
+  "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
-  },
-  "dependencies": {}
+  }
 }

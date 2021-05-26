@@ -1,5 +1,5 @@
 # a simple syntax highlighter for Asteroid
-# (c) Lutz Hamel - University of Rhode Island
+# (c) Lutz Hamel, Jeffrey Drummond - University of Rhode Island
 
 'scopeName': 'source.asteroid'
 'name': 'Asteroid'
