@@ -6,7 +6,7 @@ To find out more about Asteroid visit the [Asteroid Github Repo](https://github.
 
 ###BSD 3-Clause License
 
-Copyright (c) 2021, Lutz Hamel, University of Rhode Island,
+Copyright (c) 2021, Lutz Hamel, Jeffrey Drummond, University of Rhode Island,
 All rights reserved.
 
 
