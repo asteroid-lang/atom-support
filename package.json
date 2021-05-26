@@ -1,7 +1,7 @@
 {
   "name": "language-asteroid",
   "version": "0.0.0",
-  "description": "A short description of your language package",
+  "description": "Simple Syntax Highlighter for Asteroid",
   "keywords": [
     "language",
     "grammar"
