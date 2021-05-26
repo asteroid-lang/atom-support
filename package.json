@@ -6,8 +6,8 @@
     "language",
     "grammar"
   ],
-  "repository": "https://github.com/atom/language-asteroid",
-  "license": "MIT",
+  "repository": "https://github.com/lutzhamel/language-asteroid",
+  "license": "BSD",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   }
