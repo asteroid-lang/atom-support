@@ -1,0 +1,197 @@
+# a simple syntax highlighter for Asteroid
+# (c) Lutz Hamel - University of Rhode Island
+
+'scopeName': 'source.asteroid'
+'name': 'Asteroid'
+'fileTypes': ['ast', 'asteroid']
+'limitLineLength': false
+'patterns': [
+  ##################
+  { # comments
+    'match': '(--.*(\\n|$))|(#.*(\\n|$))'
+    'name': 'comment.line.asteroid'
+  }
+  ##################
+  { # numeric constants, which may include scientific notation
+    'match': '(^\\d+)|(\\b(([0-9]+(\\.|\\s*E\\s*)?[0-9]*)|(\\.[0-9]+))\\b)'
+    'captures':
+      '1':
+        'name': 'markup.bold.asteroid'
+      '2':
+        'name': 'constant.numeric.asteroid'
+    'name': 'meta.constant.asteroid'
+  }
+  { # constant of data type none
+    'match': '\\b(none)\\b'
+    'name': 'keyword.operator.asteroid'
+  }
+  { # constant of bool
+    'match': '\\b(true)\\b'
+    'name': 'keyword.operator.asteroid'
+  }
+  { # constant of bool
+    'match': '\\b(false)\\b'
+    'name': 'keyword.operator.asteroid'
+  }
+  ##################
+  { # strings
+    'begin': '(")'
+    'end': '(")'
+    'name': 'meta.string.quoted.double.asteroid'
+  }
+  ##################
+  { # operators
+    'match': '\'|\\.|\\||\\\\|@|\\+|-|\\*|/|<|>|=|\\b(and)\\b|\\b(or)\\b'
+    'name': 'keyword.operator.asteroid'
+  }
+  ##################
+  # key words
+  {
+    'match': '\\b(assert)\\b'
+    'name': 'keyword.control.asteroid'
+  }
+  {
+    'match': '\\b(break)\\b'
+    'name': 'keyword.control.asteroid'
+  }
+  {
+    'match': '\\b(case)\\b'
+    'name': 'keyword.control.asteroid'
+  }
+  {
+    'match': '\\b(catch)\\b'
+    'name': 'keyword.control.asteroid'
+  }
+  {
+    'match': '\\b(data)\\b'
+    'name': 'keyword.control.asteroid'
+  }
+  {
+    'match': '\\b(do)\\b'
+    'name': 'keyword.control.asteroid'
+  }
+  {
+    'match': '\\b(elif)\\b'
+    'name': 'keyword.control.asteroid'
+  }
+  {
+    'match': '\\b(else)\\b'
+    'name': 'keyword.control.asteroid'
+  }
+  {
+    'match': '\\b(end)\\b'
+    'name': 'keyword.control.asteroid'
+  }
+  {
+    'match': '\\b(escape)\\b'
+    'name': 'keyword.control.asteroid'
+  }
+  {
+    'match': '\\b(for)\\b'
+    'name': 'keyword.control.asteroid'
+  }
+  {
+    'match': '\\b(from)\\b'
+    'name': 'keyword.control.asteroid'
+  }
+  {
+    'match': '\\b(function)\\b'
+    'name': 'keyword.control.asteroid'
+  }
+  {
+    'match': '\\b(global)\\b'
+    'name': 'keyword.control.asteroid'
+  }
+  {
+    'match': '\\b(if)\\b'
+    'name': 'keyword.control.asteroid'
+  }
+  {
+    'match': '\\b(in)\\b'
+    'name': 'keyword.control.asteroid'
+  }
+  {
+    'match': '\\b(is)\\b'
+    'name': 'keyword.control.asteroid'
+  }
+  {
+    'match': '\\b(lambda)\\b'
+    'name': 'keyword.control.asteroid'
+  }
+  {
+    'match': '\\b(let)\\b'
+    'name': 'keyword.control.asteroid'
+  }
+  {
+    'match': '\\b(load)\\b'
+    'name': 'keyword.control.asteroid'
+  }
+  {
+    'match': '\\b(loop)\\b'
+    'name': 'keyword.control.asteroid'
+  }
+  {
+    'match': '\\b(nonlocal)\\b'
+    'name': 'keyword.control.asteroid'
+  }
+  {
+    'match': '\\b(noop)\\b'
+    'name': 'keyword.control.asteroid'
+  }
+  {
+    'match': '\\b(match)\\b'
+    'name': 'keyword.control.asteroid'
+  }
+  {
+    'match': '\\b(orwith)\\b'
+    'name': 'keyword.control.asteroid'
+  }
+  {
+    'match': '\\b(otherwise)\\b'
+    'name': 'keyword.control.asteroid'
+  }
+  {
+    'match': '\\b(pattern)\\b'
+    'name': 'keyword.control.asteroid'
+  }
+  {
+    'match': '\\b(repeat)\\b'
+    'name': 'keyword.control.asteroid'
+  }
+  {
+    'match': '\\b(return)\\b'
+    'name': 'keyword.control.asteroid'
+  }
+  {
+    'match': '\\b(step)\\b'
+    'name': 'keyword.control.asteroid'
+  }
+  {
+    'match': '\\b(structure)\\b'
+    'name': 'keyword.control.asteroid'
+  }
+  {
+    'match': '\\b(throw)\\b'
+    'name': 'keyword.control.asteroid'
+  }
+  {
+    'match': '\\b(to)\\b'
+    'name': 'keyword.control.asteroid'
+  }
+  {
+    'match': '\\b(try)\\b'
+    'name': 'keyword.control.asteroid'
+  }
+  {
+    'match': '\\b(until)\\b'
+    'name': 'keyword.control.asteroid'
+  }
+  {
+    'match': '\\b(while)\\b'
+    'name': 'keyword.control.asteroid'
+  }
+  {
+    'match': '\\b(with)\\b'
+    'name': 'keyword.control.asteroid'
+  }
+]
