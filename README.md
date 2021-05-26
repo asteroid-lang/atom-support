@@ -4,7 +4,7 @@ Asteroid is a multi-paradigm programming language heavily influenced by [Python]
 
 To find out more about Asteroid visit the [Asteroid Github Repo](https://github.com/lutzhamel/asteroid).
 
-### BSD
+### License BSD
 
 (c) Lutz Hamel, Jeffrey Drummond, University of Rhode Island.
 
