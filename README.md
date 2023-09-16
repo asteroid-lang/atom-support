@@ -1,6 +1,4 @@
-# NOTE:
-
-This is no longer supported since the Atom editor is no longer supported.
+### NOTE: This is no longer supported since the Atom editor is no longer supported.
 
 
 # Atom syntax highlighting for Asteroid
